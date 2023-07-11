@@ -5,6 +5,12 @@ Simplest Application based on Roda
 Compiled from the article https://mkdev.me/ru/posts/kak-organizovat-zapusk-ruby-prilozheniya-s-dry-system
 on the pre-configured Roda [framework](https://github.com/Oreol-Group/roda_sequel_rspec_config)
 
+## Check application
+```bash
+$ bundle exec rake check_price[googl,1000]
+$ bundle exec rake check_price[googl,1200]
+```
+
 ## Environment setup
 ```bash
 $ bundle install
