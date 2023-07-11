@@ -10,6 +10,11 @@ on the pre-configured Roda [framework](https://github.com/Oreol-Group/roda_seque
 $ bundle install
 ```
 
+## Run tests
+```bash
+$ bin/rspec
+```
+
 ## Run App
 You can either set up configuration into `config/initializers/config.rb`, `config/settings/*.yml` and `config/settings.yml` or `config/settings.local.yml` before running
 
